@@ -33,8 +33,6 @@ namespace HockeyAppXamarin
                     new Dictionary<string, string> { { "property", "value" } },
                     new Dictionary<string, double> { { "time", 1.0 } }
                     );
-
-
                 FeedbackManager.ShowFeedbackActivity(this);
                 HockeyApp.MetricsManager.TrackEvent("Cust");
                 btn.Text = asdsd;
