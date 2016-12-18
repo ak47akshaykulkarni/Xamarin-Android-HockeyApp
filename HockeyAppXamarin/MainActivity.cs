@@ -27,7 +27,6 @@ namespace HockeyAppXamarin
             btn = FindViewById<Button>(Resource.Id.myButton);
             btn.Click += delegate
             {
-
                 HockeyApp.MetricsManager.TrackEvent(
                     "Custom Event",
                     new Dictionary<string, string> { { "property", "value" } },
